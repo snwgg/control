@@ -48,7 +48,7 @@ def calcular_metricas(p):
     
     taxa_val = bruto * (taxa_pct / 100)
     
-    # FRETE ENVIO ADICIONADO AO CUSTO TOTAL AQUI:
+    # Frete de Envio e todos os gastos somados para o lucro exato
     custo_total = val + frete + extra + anuncio + taxa_val + envio
     
     res = {"custo_total": custo_total, "lucro_liquido": None}
